@@ -1,0 +1,137 @@
+
+
+:root{
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-Blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsla(229, 6%, 66%, 10%);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    max-width:230px;
+    margin: 20px auto;
+}
+.real{
+    font-size: larger;
+    font-weight: 300;
+    opacity: 50%;
+}
+.our{
+  font-size: small; 
+  opacity: 40%; 
+}
+h1{
+    font-size: larger;
+    opacity: 70%;
+}
+h2{
+    opacity: 60%;
+}
+.head{
+    padding-bottom: 50px;
+}
+.body{
+    margin-bottom: 20px;
+    background: var(--Very-Light-Gray);
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-shadow: 1px 1px 5px;
+}
+.body .image{
+    margin-top: 40px;
+    text-align: end;
+    margin-right: 1rem;
+    padding-bottom: 20px;
+}
+.body .image img{
+    width:40px;
+}
+.super{
+    border-top: 3px solid var(--Cyan); 
+}
+.team{ 
+border-top: 3px solid var(--Red);
+}
+.karma{
+border-top: 3px solid var(--Orange);
+}
+.calc{
+  border-top: 3px solid var(--Blue);  
+}
+.bore{
+    font-size: x-small;
+    opacity: 40%;
+    line-height: 1.6;
+    padding-right: 10px;
+}
+
+@media (min-width:500px){
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    main{
+        max-width: 20vh;
+    }
+    .head{
+    min-width: 300px;
+    text-align: center;
+     margin: 10px auto;
+    position: relative;
+    right: 80px;
+    text-align: center;
+    }
+    .body{
+        min-width: 250px;
+    }
+    .super{
+        margin-right: 30px;
+    }
+    .calc{
+        margin-left: 30px;
+    }
+    .bore{
+    padding-right: 30px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .real, h1{
+        font-size: x-large;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
